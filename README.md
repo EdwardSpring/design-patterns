@@ -10,7 +10,7 @@
 
 
  ## STRUCTURAL PATTERNS
- These are design patterns that simplify the design of large object structures by identifying relationships between entities. They provide solutions and efficient standards regarding class compositions and object structures, relying on inheritance and interfaces to allow multiple objects or classes to work together and form a single working whole.
+ These are design patterns that simplify the design of large object structures by identifying relationships between entities. They provide solutions and efficient standards regarding class compositions and object structures, relying on inheritance and interfaces to allow multiple objects or classes to work together and form a single working whole
  1. Adapter
  2. Bridge 
  3. Composite 
