@@ -6,6 +6,9 @@ import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.ToString;
 
+/**
+ * This class shows how to use the singleton pattern. It also demonstrates that you can combine other patterns as well as it uses the builder pattern to initialize this with properties.
+ */
 @ToString
 @Getter
 public class Configuration {
