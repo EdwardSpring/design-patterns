@@ -27,8 +27,8 @@ public class Configuration {
      * @param builder
      */
     private Configuration(Builder builder){
-        this.username = builder.getUsername();
-        this.password = builder.getPassword();
+        this.username = builder.username;
+        this.password = builder.password;
     }
 
     /**
@@ -72,7 +72,6 @@ public class Configuration {
      * This is used to initialize the singleton with a set of properties.
      * Note: these properties can only be set once;
      */
-    @Getter
     public static class Builder {
 
         private Optional<String> username = Optional.empty();
