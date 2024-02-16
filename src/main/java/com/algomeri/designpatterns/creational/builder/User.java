@@ -50,5 +50,9 @@ public class User {
         public User build() {
             return new User(this);
         }
+
+        public User preset () {
+            return new User.Builder().firstName("Cristiano").lastName("Ronaldo").build();
+        }
     }
 }
